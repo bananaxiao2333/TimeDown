@@ -88,7 +88,7 @@ const About = () => {
             <Button
               variant="outlined"
               color="secondary"
-              href="https://github.com/your-repo/timedown"
+              href="https://github.com/bananaxiao2333/TimeDown/"
               target="_blank"
               rel="noopener"
               sx={{

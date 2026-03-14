@@ -1,16 +1,72 @@
-# React + Vite
+# TimeDown
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A lightweight, high-performance countdown timer application built with modern web technologies.
 
-Currently, two official plugins are available:
+Schedule events with cron expressions and display real-time countdowns with Picture-in-Picture support.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## React Compiler
+- **Event Scheduling**: Create and manage events using cron expressions
+- **Real-time Countdowns**: View active countdowns with precise timing
+- **Picture-in-Picture Support**: Keep countdowns visible while browsing other content
+- **Customizable Display**: Adjust font sizes, colors, and layout through settings
+- **Responsive Design**: Works seamlessly across desktop and mobile devices
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+## Technology Stack
 
-## Expanding the ESLint configuration
+- React 19.2.0
+- Vite 8.0.0-beta.13
+- Material-UI (MUI) v7
+- React Router DOM 7.13.1
+- cron-parser for event scheduling
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Getting Started
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/bananaxiao2333/TimeDown.git
+cd TimeDown
+
+# Install dependencies
+npm install
+```
+
+### Development
+
+```bash
+# Start development server
+npm run dev
+```
+
+### Building for Production
+
+```bash
+# Build the application
+npm run build
+
+# Preview the production build
+npm run preview
+```
+
+### Usage
+
+1. Use the **Schedule** page to create and manage your events
+2. View active countdowns on the **Display** page
+3. Customize your viewing experience through the **Settings** page
+
+## Navigation
+
+- **Display**: `/display` - View active countdowns
+- **Schedule**: `/schedule` - Create and manage events  
+- **Settings**: `/settings` - Customize display preferences
+- **About**: `/about` - Learn more about the application
+
+## Source Code
+
+The source code is available on GitHub: [https://github.com/bananaxiao2333/TimeDown/](https://github.com/bananaxiao2333/TimeDown/)
+
+## License
+
+Built with love © 2026 TimeDown
